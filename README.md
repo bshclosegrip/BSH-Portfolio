@@ -21,4 +21,7 @@ please open in chrome
 
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/b890e81a-a786-450c-9b18-c486a3ed72c1)
 
+![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/255303fd-6e48-4655-a23b-fb8345428804)
+
+
 ### - SW Update, Factory Mode, Usb Music, Movie
