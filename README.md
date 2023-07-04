@@ -2,6 +2,7 @@
 please open in chrome
 
 
+
 # 1. Personal Project
 
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/1e684920-43f5-481c-b99c-e62b802474f5)
@@ -15,8 +16,9 @@ please open in chrome
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/46fb77ed-672a-4251-8b6e-acb884861c00)
 
 
+
 # 2. Public Project
 
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/b890e81a-a786-450c-9b18-c486a3ed72c1)
 
-## SW Update, Factory Mode, Usb Music, Movie
+### - SW Update, Factory Mode, Usb Music, Movie
