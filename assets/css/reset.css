@@ -65,3 +65,53 @@ h1,h2,h3,h4,h5,h6{font-size: 13px; color: #222; font-weight: normal;}
 
 /* 클리어픽스 */
 .clearfix::after {content: ""; display: block; clear: both;}
+
+.work1_right {
+    display: flex;
+    gap: 5px;
+}
+.work1_right img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.work2_right {
+    display: flex;
+    gap: 5px;
+}
+.work2_right img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.work3_right {
+    display: flex;
+    gap: 5px;
+}
+.work3_right img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.work4_right {
+    display: flex;
+    gap: 5px;
+}
+.work4_right img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.work5_right {
+    display: flex;
+    gap: 5px;
+}
+.work5_right img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
