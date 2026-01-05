@@ -1,4 +1,3 @@
-// 메인 텍스트
 //skrollr
    var s = skrollr.init({
     edgeStrategy: 'set',
@@ -16,7 +15,7 @@ function start(){
         {ease: Back.easeOut.config(1.7), opacity: 1, y: 0}, 0.05);
 } 
 
-//페이지 로딩 imageProgress
+// imageProgress
 function imagesProgress(){
     var $container = $('#progress'),
         $progressText = $container.find('.progress-text'),
@@ -55,7 +54,7 @@ function imagesProgress(){
 imagesProgress()
 
 
-//텍스트 show
+//next show
 $(window).scroll(function(){
     let wScroll = $(window).scrollTop()
 
@@ -104,7 +103,7 @@ $(window).scroll(function(){
     }
 });
 
-//스킬 counter
+//skill counter
 function counter() {
     if ($('.skill_one .count').size()) {
         $c = $('.skill_one .count');
@@ -202,7 +201,7 @@ $("#modal4 .close").click(function(){
     }
 });
 
-//스크롤
+//scroll
 $(window).scroll(function(){
     let wScroll = $(window).scrollTop();
     $(".scroll").text(wScroll);
