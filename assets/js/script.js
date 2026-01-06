@@ -41,7 +41,7 @@ function imagesProgress(){
             $container.animate({top: '-110%'},1000,'easeInOutQuint');
 
             $('body').addClass('active');
-            initSkillPie();
+            //initSkillPie();
         }
         if(current > 99.98){
             current = 100;

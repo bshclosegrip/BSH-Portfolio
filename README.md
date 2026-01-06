@@ -1,5 +1,6 @@
 # BSH-Portfolio
-please open in chrome
+please download zip file.
+and open index.html file in **chrome browser.**
 
 
 
@@ -22,4 +23,6 @@ please open in chrome
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/255303fd-6e48-4655-a23b-fb8345428804)
 
 
-### - SW Update, Factory Mode, Usb Music, Movie
+### KU-AVN - SW Update, Factory Mode, Usb Music, Movie
+
+### MS400A-AVN - BT Phone, BT Music, Launcher, Connection Setting
