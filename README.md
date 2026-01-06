@@ -1,14 +1,10 @@
 # BSH-Portfolio
-please download zip file.  
-and open index.html file in **`Chrome browser`**
+Please download the zip file.  
+And open `index.html` in **`Chrome browser`**.
 
 
 
 # 1. Personal Project
-
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/1e684920-43f5-481c-b99c-e62b802474f5)
-
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/24b58892-8cac-4f5f-a917-504173761bea)
 
 ![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/4a40a3a3-2969-4b37-96f2-fd8e904a1189)
 
