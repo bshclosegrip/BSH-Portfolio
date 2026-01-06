@@ -5,18 +5,20 @@ And open `index.html` in **`Chrome browser`**.
 <br>
 
 # 1. Personal Project
-<img width="1310" height="729" alt="image" src="https://github.com/user-attachments/assets/3e09fa54-4da6-400c-bf35-017e899520eb" />  
+<img width="1001" height="716" alt="image" src="https://github.com/user-attachments/assets/bba331d2-cce0-4071-a2aa-ffcb54fcb70c" />
 
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/4a40a3a3-2969-4b37-96f2-fd8e904a1189)
+<img width="1036" height="613" alt="image" src="https://github.com/user-attachments/assets/19917d2d-7fd7-41b9-8486-b03477ebdc25" />
 
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/46fb77ed-672a-4251-8b6e-acb884861c00)
+<img width="1004" height="628" alt="image" src="https://github.com/user-attachments/assets/d771cfa5-6ed7-4b54-82e3-2adb967268a5" />
+
 
 <br><br>
 
 # 2. Public Project
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/255303fd-6e48-4655-a23b-fb8345428804)
+<img width="1040" height="635" alt="image" src="https://github.com/user-attachments/assets/51dfbdb7-f7b6-4789-8b5a-740d6ac01a1a" />
 
-![image](https://github.com/bshclosegrip/BSH-Portfolio/assets/66303614/b890e81a-a786-450c-9b18-c486a3ed72c1)
+<img width="1048" height="680" alt="image" src="https://github.com/user-attachments/assets/3b1b8c8e-77c9-4834-9205-9ba39485fad3" />
+
 
 
 ### KU-AVN : SW Update, Factory Mode, Usb Music, Movie
