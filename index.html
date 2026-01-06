@@ -111,10 +111,7 @@
                                 I Called by &#60;&#47;&#62;<br>
                                 BSH for the shortcut name
                             </p>
-                            <p class="p2">
-                                PM 08:41<br>
-                                May. 17 2021
-                            </p>
+                            <p class="p2" id="currentDate"></p>
                         </div>
                     </div>
                 </div>
@@ -139,6 +136,10 @@
         <span>BSH PORTFOLIO&nbsp;</span>
         <span>BSH PORTFOLIO&nbsp;</span>
         <span>BSH PORTFOLIO&nbsp;</span>
+        <span>BSH PORTFOLIO&nbsp;</span>
+        <span>BSH PORTFOLIO&nbsp;</span>
+        <span>BSH PORTFOLIO&nbsp;</span>
+        <span>BSH PORTFOLIO&nbsp;</span>
     </div>
 
     <!-- skill -->
@@ -158,8 +159,7 @@
                             </p>
                             <h4>GIT, SVN</h4>
                             <p>
-                                GITLAB 활용 버전 관리, 협업 경험
-                                SVN 활용 버전 관련, 협업 경험
+                                GITLAB 활용 버전 관리, 협업 경험 SVN 활용 버전 관련, 협업 경험
                             </p>
                             <h4>Linux Build Server</h4>
                             <p>
@@ -173,8 +173,7 @@
                             <h3>other skills</h3>
                             <h4>BLUETOOTH STACK</h4>
                             <p>
-                                GAP 이용해 기기를 찾고 연결하도록 구성
-                                GATT 심박수, 혈압 데이터 정의
+                                GAP 이용해 기기를 찾고 연결하도록 구성 GATT 심박수, 혈압 데이터 정의
                             </p>
                             <h4>HTML, CSS, JAVASCRIPT</h4>
                             <p>
@@ -189,19 +188,19 @@
                     <div class="skill_pie">
                         <ul class="skill_one">
                             <li class="pie" data-percent="90">
-                                <a href="#" target="_blank"><strong class="count">90</strong><span class="f1">ANDROID</span></a>
+                                <a href="#" target="_blank"><strong class="count">0</strong><span class="f1">ANDROID</span></a>
                             </li>
                             <li class="pie" data-percent="80">
-                                <a href="#" target="_blank"><strong class="count">80</strong><span class="f1">GIT, SVN</span></a>
+                                <a href="#" target="_blank"><strong class="count">0</strong><span class="f1">GIT</span></a>
                             </li>
                             <li class="pie" data-percent="50">
-                                <a href="#" target="_blank"><strong class="count">50</strong><span class="f1">Linux</span></a>
+                                <a href="#" target="_blank"><strong class="count">0</strong><span class="f1">Linux</span></a>
                             </li>
                             <li class="pie" data-percent="40">
-                                <a href="#" target="_blank"><strong class="count">40</strong><span class="f1">BLUETOOTH STACK</span></a>
+                                <a href="#" target="_blank"><strong class="count">0</strong><span class="f1">BTSTACK</span></a>
                             </li>
                             <li class="pie" data-percent="40">
-                                <a href="#" target="_blank"><strong class="count">40</strong><span class="f1">BLUETOOTH STACK</span></a>
+                                <a href="#" target="_blank"><strong class="count">0</strong><span class="f1">ETC</span></a>
                             </li>
                         </ul>
                     </div>
@@ -821,15 +820,40 @@ lemonade081@naver.com" rows="10" required=""></textarea>
 
 <script>
 document.querySelectorAll('.pie').forEach(pie => {
-  const percent = pie.dataset.percent;
-  pie.style.width = '140px';
-  pie.style.height = '140px';
-  pie.style.borderRadius = '50%';
-  pie.style.background = `conic-gradient(
-    #ff6b6b 0% ${percent}%,
-    #eee ${percent}% 100%
-  )`;
+  const percent = parseInt(pie.dataset.percent, 10);
+  const countEl = pie.querySelector('.count');
+
+  let current = 0;
+  const step = Math.max(1, Math.floor(percent / 30));
+
+  const timer = setInterval(() => {
+    current += step;
+    if (current >= percent) {
+      current = percent;
+      clearInterval(timer);
+    }
+    countEl.textContent = current;
+  }, 20);
 });
 </script>
+
+<script>
+    const now = new Date();
+
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    const time = `PM ${hours}:${minutes}`;
+    const date = `${months[now.getMonth()]}. ${now.getDate()} ${now.getFullYear()}`;
+
+    document.getElementById("currentDate").innerHTML = `
+        ${time}<br>
+        ${date}
+    `;
+</script>
+
 </body>
 </html>

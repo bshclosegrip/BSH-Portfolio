@@ -40,16 +40,37 @@ function imagesProgress(){
 
             $container.animate({top: '-110%'},1000,'easeInOutQuint');
 
-
-
-
             $('body').addClass('active');
+            initSkillPie();
         }
         if(current > 99.98){
             current = 100;
         }
     }	
 };
+
+function initSkillPie() {
+  document.querySelectorAll('.pie').forEach(pie => {
+    const percent = parseInt(pie.dataset.percent, 10);
+    const countEl = pie.querySelector('.count');
+
+    pie.style.width = '140px';
+    pie.style.height = '140px';
+    pie.style.borderRadius = '50%';
+    pie.style.background = `conic-gradient(
+      #ff6b6b 0% ${percent}%,
+      #444 ${percent}% 100%
+    )`;
+
+    let current = 0;
+    const timer = setInterval(() => {
+      current++;
+      countEl.textContent = current;
+      if (current >= percent) clearInterval(timer);
+    }, 15);
+  });
+}
+
 
 imagesProgress()
 
